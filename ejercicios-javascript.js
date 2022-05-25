@@ -1,6 +1,3 @@
-// Propiedad intelectual: Esta prueba fue desarrollada por TCIT el año 2014 y registrada bajo propiedad intelectual, cualquier publicación o difamación podría estar sujeta a acciones legales. Hay otras empresas que nos han copiado esta prueba, no aceptes imitaciones, exige el original xD
-// No realizar la prueba en repl.it al hacerlo su respuesta queda disponible para otros postulantes, tampoco subirla a repositorios de github públicos
-// No editar
 const clients = [
   { id: 1, taxNumber: '86620855', name: 'HECTOR ACUÑA BOLAÑOS' },
   { id: 2, taxNumber: '7317855K', name: 'JESUS RODRIGUEZ ALVAREZ' },
@@ -39,25 +36,6 @@ const banks = [
   { id: 2, name: 'CHILE' },
   { id: 3, name: 'ESTADO' }
 ];
-
-/*
-  SECCIÓN PROBLEMAS
-    - No promover la copia:
-    - No preguntar en StackOverflow, foros, o similares ya que estas preguntas/respuestas quedan disponibles a otros candidatos
-    - No subir a repositorios públicos (github, o similares)
-    - Otros sitios como codepen o editores de texto on-line (codepen, repl, o similares), dejan guardado el código, por lo que les pedimos tampoco usar editores on-line, la mejor forma de debuggear su código es usando un interprete de javascript como node y ejecutarlo de manera local
-    - Para nosotros es fácil detectar pruebas con copia, no pierda su tiempo intentando hacerlo
-    - Posteriormente, se evaluará conocimiento en es6 en entrevistas presenciales
-    - Las siguientes son preguntas básicas de Javascript y manejo de datos. Se evaluará eficiencia, ORDEN y claridad del código entregado.
-    - Se debe programar un algoritmo para cada método y que este retorne lo requerido.
-    - Debe usar nombres explicativos para sus variables.
-    - Usar sintaxis ES6.
-    - Los resultados son evaluados con un test automatizado, revise que sus retornos sean con la estructura de datos solicitada en cada pregunta.
-  - Métodos menos verbosos, DRY, y buenas prácticas en el código mejoran el puntaje final de su prueba
-  - Si necesita hacer supuestos que afecten las respuestas entregadas, por favor déjelos escritos en el cuerpo del correo cuando envíe su prueba (No en este archivo). Supuestos que contradigan lo solicitado, no serán considerados como válidos.
-  - Su prueba debe ejecutarse sin errores con: node nombre-apellido.js
-            - Su prueba debe ejecutarse sin errores en la consola del inspector de Google Chrome
-*/
 
 // 0 Arreglo con los ids de clientes
 function listClientsIds() {
@@ -196,7 +174,6 @@ function newClientRanking() {
 
 
 // No modificar, eliminar o alterar cualquier línea de código o comentario de acá para abajo
-// Cualquier cambio hará que su prueba quede invalidada automáticamente
 console.log('Pregunta 0');
 console.log(listClientsIds());
 console.log('Pregunta 1');
